@@ -1,35 +1,35 @@
-# 📊 Bank Loan Analysis – Data Analytics Project
+# 📊 Bank Loan Analysis – Python Project
 
 ## 📌 Project Overview
-This project analyzes **bank loan data** to identify patterns, trends, and risk factors in loan approvals and defaults.  
-It is designed as a **portfolio project for Data Analyst roles**, showcasing skills in Python, data analysis, and visualization.
+This project analyzes **bank loan data** to uncover trends, patterns, and insights about loan approvals and funding.  
+It is designed as a **portfolio project for Data Analyst roles**, highlighting skills in Python, data cleaning, EDA, and visualization.
 
 ## 🎯 Objectives
 - Clean and preprocess raw loan data.
 - Perform exploratory data analysis (EDA).
-- Identify key factors influencing loan approval/rejection.
-- Visualize important insights with charts.
-- Provide business recommendations based on findings.
+- Identify factors influencing loan approvals.
+- Visualize loan funding trends across different categories.
+- Provide business insights based on the findings.
 
 ## 🗂️ Project Structure
+```text
+python-bank-loan-analysis/
+│
+├── data/                          # Dataset used
+│   └── financial_loan.xlsx
+│
+├── notebooks/                     # Jupyter Notebook with full analysis
+│   └── Bank_loan_project.ipynb
+│
+├── requirements.txt
+│
+└── visualizations screenshots/    # Saved charts and graphs
+    ├── Funded Amount By Employment Length.png
+    ├── Funded Amount By Month.png
+    ├── Funded Amount By Term.png
+    ├── Loan Applications by Home Ownership.png
+    └── Total Funded Amount By State.png
 
-python bank loan analysis
-|
-+---data
-|       financial_loan.xlsx
-|
-+---notebooks
-|       Bank_loan_project.ipynb
-|
-+---requirements.txt
-|
-|
-\---visualizations screenshots
-        Funded Amount By Employment Length.png
-        Funded Amount By Month.png
-        Funded Amount By Term.png
-        Loan Applications by Home Ownership.png
-        Total Funded Amount By State.png
 
 
 
